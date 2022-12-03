@@ -15,7 +15,12 @@ public class Desafio {
 		
 		Produto p = new Produto("iPad", 3235.89, 0.13);
 		
-		String preco = precoFinal.andThen(impostoMunicipal).andThen(frete).andThen(arredondar).andThen(formatar).apply(p);
+		String preco = precoFinal
+				.andThen(impostoMunicipal)
+				.andThen(frete)
+				.andThen(arredondar)
+				.andThen(formatar)
+				.apply(p);
 		System.out.println("O preço final é " + preco);
 	}
 }

@@ -1,5 +1,6 @@
-package excecao;
+package excecao.personalizadaA;
 
+import excecao.Aluno;
 import excecao.personalizadaA.NumeroForaIntervaloException;
 import excecao.personalizadaA.StringVaziaException;
 import excecao.personalizadaA.Validar;
